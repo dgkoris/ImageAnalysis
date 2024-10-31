@@ -129,7 +129,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ImageProcessor.cpp" />
+    <ClCompile Include="Dimensions.cpp" />
+    <ClCompile Include="ImageData.cpp" />
+    <ClCompile Include="ImageDeserialiser.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SharedMemoryReader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="Dimensions.h" />
+    <ClInclude Include="ImageData.h" />
+    <ClInclude Include="ImageDeserialiser.h" />
+    <ClInclude Include="SharedMemoryReader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
